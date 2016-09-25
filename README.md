@@ -17,6 +17,8 @@ The r.js optimizer works well with alameda-based projects.
 
 ## Install
 
+[Latest release information](https://github.com/requirejs/alameda/releases)
+
 If using a package manager:
 
 ```
@@ -79,6 +81,13 @@ requirejs.config({
 
 If you pass a function for the `defaultErrback` value, then that will be used instead of the default "delayedError" handler used by alameda to surface the error.
 
+## License
+
+MIT
+
+## Code of Conduct
+
+[jQuery Foundation Code of Conduct](https://jquery.org/conduct/).
 
 ## Running tests
 
@@ -96,7 +105,7 @@ a web browser.
 
 To run the requirejs tests, first make sure the following projects have been cloned and are **siblings** to the the alameda repo:
 
-* https://github.com/jrburke/requirejs
+* https://github.com/requirejs/requirejs
 * https://github.com/requirejs/domReady
 * https://github.com/requirejs/text
 * https://github.com/requirejs/i18n
